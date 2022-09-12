@@ -1,15 +1,11 @@
 FROM node:14-alpine3.15
 
-WORKDIR /usr/src/app
+WORKDIR /back-end/
 
 EXPOSE 3001
 
-COPY package*.json ./
+ENTRYPOINT [ "npm", "start" ]
 
 ADD ./node_modules.tar.gz .
 
 COPY . .
-
-RUN npm install
-
-CMD [ "npm", "start" ]

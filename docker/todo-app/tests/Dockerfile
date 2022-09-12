@@ -1,13 +1,9 @@
 FROM mjgargani/puppeteer:trybe1.0
 
-WORKDIR /usr/src/app
+WORKDIR /tests/
 
-COPY package*.json ./
+ENTRYPOINT [ "npm", "test" ]
 
 ADD node_modules.tar.gz .
 
 COPY . .
-
-RUN npm install
-
-CMD [ "npm", "start" ]
