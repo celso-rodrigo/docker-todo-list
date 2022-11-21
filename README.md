@@ -11,7 +11,7 @@
 <ul>
   <li>O conhecimento dos comandos dockers no CLI;</li>
   <li>A habilidade de criar um contêiner Docker para uma aplicação de front-end, back-end e de testes;</li>
-  <li>A habilidade de orquestrar os três contêineres utilizando o Docker compose;</li>
+  <li>A habilidade de orquestrar os três contêineres utilizando o Docker compose.</li>
 </ul>
 
 <br/>
