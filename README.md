@@ -1,13 +1,32 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<h1>Docker To-do List</h1>
+<p>Este projeto foi desenvolvido em setembro de 2022 durante meus estudos na <a href="https://www.betrybe.com/">Trybe</a>.</p>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<br/>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h2>O quê foi desenvolvido</h2>
+<p>Foi simulado o uso de comandos docker em linha de comando. Foram criados arquivos Dockerfile para “conteinerizar” as aplicações de front-end, back-end e testes, criar uma conexão entre elas e orquestrar seu funcionamento.</p>
+<br/>
+  
+<h2>O quê foi avaliado</h2>
+<ul>
+  <li>O conhecimento dos comandos dockers no CLI;</li>
+  <li>A habilidade de criar um contêiner Docker para uma aplicação de front-end, back-end e de testes;</li>
+  <li>A habilidade de orquestrar os três contêineres utilizando o Docker compose;</li>
+</ul>
+
+<br/>
+
+<h2>Guia de instalação</h2> 
+<ol>
+  <li>
+    <p>Clone o repositório</p>
+    <pre>git clone git@github.com:celso-rodrigo/docker-todo-list.git</pre>
+  </li>
+  <li>
+    <p>Abra a pasta do repositório</p>
+  </li>
+  <li>
+    <p>Instale as dependências</p>
+    <pre>npm install</pre>
+  </li>
+</ol>
